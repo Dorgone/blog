@@ -1,0 +1,1033 @@
+@charset "UTF-8";
+
+
+
+@media all and (max-width:720px) {
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* GENERAL */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+.app {
+    font-family: Muli;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* STEPS */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.tqb-step {
+    margin: auto;
+    border-radius: 8px;
+}
+
+.tqb-step-2 {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* BUTTONS */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* General */
+.tqb-button-container {  
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* Default */
+.tqb-button {
+    background-color: #e6e6e6;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    outline: 0 !important;
+    text-align: center;
+}
+
+.tqb-option-add {
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    flex: 0 0 20px; /*flex: 0 0 40px;*/
+    height: 20px; /*height: 40px;*/
+    align-content: center;
+}
+
+.tqb-option-remove {
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 12px;
+    flex: 0 0 16px; /*flex: 0 0 40px;*/
+    height: 16px; /*height: 40px;*/
+    align-content: center;
+}
+
+.tqb-option-add svg {
+    width: 20px;
+    height: 20px;
+}
+	
+.tqb-option-remove svg {
+    width: 16px;
+    height: 16px;
+}
+
+.tqb-option-add svg, .tqb-option-remove svg {
+    vertical-align: text-top;
+}
+
+
+/* Active */
+.tqb-button:active {
+    background-color: #0bb400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tqb-option-remove:active {
+    background-color: #b70101;
+    cursor: pointer;
+}
+
+.tqb-option-add:active {
+    background-color: #0bb400;
+    cursor: pointer;
+}
+
+.tqb-option-add svg line,
+.tqb-option-remove svg line {
+stroke: #868c90;
+}
+
+.tqb-option-add:active svg line,
+.tqb-option-remove:active svg line {
+    stroke: #fff;
+}
+
+
+/* Hover */
+/* @media (hover:hover) {
+    .tqb-button:hover {
+        background-color: #0bb400;
+        color: #fff;
+        cursor: pointer
+    }
+
+    .tqb-option-remove:hover {
+        background-color: #b70101;
+        cursor: pointer
+    }
+    
+    .tqb-option-add:hover {
+        background-color: #0bb400;
+        cursor: pointer
+    };
+
+    .tqb-option-add:hover svg line,
+    .tqb-option-remove:hover svg line {
+        stroke: #fff
+    }
+} */
+
+/* Hover */
+@media (hover:hover) {
+    .tqb-button:hover {
+        background-color: #0bb400;
+        color: #fff;
+        cursor: pointer
+    }
+
+    .tqb-option-remove:hover {
+        background-color: #b70101;
+        cursor: pointer
+    }
+    
+    .tqb-option-add:hover {
+        background-color: #0bb400;
+        cursor: pointer
+    }
+
+    .tqb-option-add:hover svg line,
+    .tqb-option-remove:hover svg line {
+        stroke: #fff
+    }
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* FIRST PAGE */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* QUESTIONS */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.tqb-answer-inner-wrapper {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    margin: 25px auto 0;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    padding: 15px;
+    display: block;
+}
+.tqb-answer-inner-wrapper:active {
+    background-color: #008f8f;
+    border: 1px solid #008f8f;
+    color: #fff;
+    box-shadow: 2px 2px 8px #888;
+    cursor: pointer;
+}
+@media (hover:hover) {
+    .tqb-answer-inner-wrapper:hover {
+        background-color: #008f8f;
+        border: 1px solid #008f8f;
+        color: #fff;
+        box-shadow: 2px 2px 8px #888;
+        cursor: pointer
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tqb-criteria-text {
+    font-size: 42px;
+}
+
+
+
+
+.tqb-question-text {
+    font-size: 28px;
+}
+
+.tqb-comparison-text {
+    font-size: 28px;
+}
+
+.tqb-criteria-text,
+.tqb-question-text {
+    margin: 15px 0;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.tqb-answer-text:before {
+    left: 0;
+    top: 0;
+    content: '';
+    position: absolute;
+}
+
+.tqb-answer-text:before {
+    background: url(https://charismaforthepeople.com/wp-content/plugins/thrive-quiz-builder/tcb-bridge/editor-templates/css/img/tqb-first-style-selected.png) center no-repeat;
+    height: 28px;
+    width: 18px;
+}
+
+.tqb-option-inner-wrapper,
+.tqb-option-input-wrapper {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 0 !important;
+}
+
+.tqb-option-input-wrapper input {
+		background-color: transparent;
+}
+
+.tqb-option-criteria-input {
+    width: 100% !important;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.tqb-option-criteria-input,
+.tqb-option-input {
+    width: 100%;
+    font-size: inherit;
+    padding: 15px;
+    font-family: inherit;
+    position: relative;
+    font-weight: 300;
+    line-height: inherit;
+    word-break: break-all;
+    border: none !important;
+    outline: 0 !important;
+}
+
+.tqb-answer-text,
+.tqb-option-text,
+.tqb-result-text {
+    position: relative;
+    line-height: 28px;
+    flex-direction: column;
+}
+
+.tqb-answer-text {
+    padding-left: 30px;
+    word-break: break-word;
+}
+
+.tqb-option-text {
+    padding-left: 15px;
+    word-break: break-word;
+}
+
+.tqb-result-text.ranking {
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    flex: 2 1 5%;
+}
+
+.tqb-result-text.percentage {
+    text-align: right;
+    width: 10%;
+    margin-left: 20px;
+    margin-right: 50px;
+    flex: 2 0 5%;
+}
+
+.tqb-result-text.option {
+    text-align: left;
+    word-break: break-all;
+    flex: 3 3 80%;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* RESULTS */
+.tqb-result-inner-wrapper {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: rgb(11, 180, 0, 10%);
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rank-1 {
+    background-color: rgb(11, 180, 0, 100%);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.rank-2 {
+    background-color: rgb(11, 180, 0, 80%);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.rank-3 {
+    background-color: rgb(11, 180, 0, 60%);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.rank-4 {
+    background-color: rgb(11, 180, 0, 40%);
+}
+
+.rank-5 {
+    background-color: rgb(11, 180, 0, 20%);
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* SPECIFIC */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* WEDGES */
+
+@font-face {
+    font-family: Coves;
+    src: url("https://charismaforthepeople.com/wp-content/uploads/2020/10/Coves-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Coves;
+    font-weight: bold;
+    src: url("https://charismaforthepeople.com/wp-content/uploads/2020/10/Coves-Bold.otf") format("opentype");
+}
+
+
+.pvqr-chart .pvqr-chart-wedges, .pvqr-chart .pvqr-chart-segments {
+    /* font-family: Coves; */
+    font-family: Muli;
+}
+
+
+.pvqr-chart-wedges {
+    fill: transparent;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    /* font-size: 16px; */
+}
+
+.pvqr-chart-wedge-text {
+    fill: #000;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.pvqr-chart-wedge:hover .pvqr-chart-wedge-text {
+    font-size: 110%;
+}
+
+.result-wedge-0 {
+    background-color: #d1afd2;
+}
+
+.result-wedge-1 {
+    background-color: #bf91c2;
+}
+
+.result-wedge-2 {
+    background-color: #9fa8d1;
+}
+
+.result-wedge-3 {
+    background-color: #81b9dc;
+}
+
+.result-wedge-4 {
+    background-color: #7fd6cd;
+}
+
+.result-wedge-5 {
+    background-color: #a5dabc;
+}
+
+.result-wedge-6 {
+    background-color: #8dd1ac;
+}
+
+.result-wedge-7 {
+    background-color: #d1e26f;
+}
+
+.result-wedge-8 {
+    background-color: #fdf8a4;
+}
+
+.result-wedge-9 {
+    background-color: #fbf16b;
+}
+
+.result-wedge-10 {
+    background-color: #fdd478;
+}
+
+.result-wedge-11 {
+    background-color: #facaa2;
+}
+
+.result-wedge-12 {
+    background-color: #f8b67c;
+}
+
+.result-wedge-13 {
+    background-color: #f49f80;
+}
+
+.result-wedge-14 {
+    background-color: #f7b5b7;
+}
+
+.result-wedge-15 {
+    background-color: #f59094;
+}
+
+.result-wedge-16 {
+    background-color: #f2bdd1;
+}
+
+.result-wedge-17 {
+    background-color: #eb9cb9;
+}
+
+.result-wedge-18 {
+    background-color: #e47ca1;
+}
+
+.pvqr-chart-wedge-filling {
+    transition: .5s;
+}
+
+.pvqr-chart-wedge0:hover .pvqr-chart-wedge-filling {
+    fill: #d1afd2;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge0-gradient>stop:nth-child(1) {
+    stop-color: #d1afd2;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge0-gradient>stop:nth-child(2) {
+    stop-color: #d1afd2;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge1:hover .pvqr-chart-wedge-filling {
+    fill: #bf91c2;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge1-gradient>stop:nth-child(1) {
+    stop-color: #bf91c2;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge1-gradient>stop:nth-child(2) {
+    stop-color: #bf91c2;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge2:hover .pvqr-chart-wedge-filling {
+    fill: #9fa8d1;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge2-gradient>stop:nth-child(1) {
+    stop-color: #9fa8d1;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge2-gradient>stop:nth-child(2) {
+    stop-color: #9fa8d1;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge3:hover .pvqr-chart-wedge-filling {
+    fill: #81b9dc;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge3-gradient>stop:nth-child(1) {
+    stop-color: #81b9dc;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge3-gradient>stop:nth-child(2) {
+    stop-color: #81b9dc;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge4:hover .pvqr-chart-wedge-filling {
+    fill: #7fd6cd;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge4-gradient>stop:nth-child(1) {
+    stop-color: #7fd6cd;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge4-gradient>stop:nth-child(2) {
+    stop-color: #7fd6cd;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge5:hover .pvqr-chart-wedge-filling {
+    fill: #a5dabc;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge5-gradient>stop:nth-child(1) {
+    stop-color: #a5dabc;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge5-gradient>stop:nth-child(2) {
+    stop-color: #a5dabc;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge6:hover .pvqr-chart-wedge-filling {
+    fill: #8dd1ac;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge6-gradient>stop:nth-child(1) {
+    stop-color: #8dd1ac;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge6-gradient>stop:nth-child(2) {
+    stop-color: #8dd1ac;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge7:hover .pvqr-chart-wedge-filling {
+    fill: #d1e26f;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge7-gradient>stop:nth-child(1) {
+    stop-color: #d1e26f;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge7-gradient>stop:nth-child(2) {
+    stop-color: #d1e26f;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge8:hover .pvqr-chart-wedge-filling {
+    fill: #fdf8a4;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge8-gradient>stop:nth-child(1) {
+    stop-color: #fdf8a4;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge8-gradient>stop:nth-child(2) {
+    stop-color: #fdf8a4;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge9:hover .pvqr-chart-wedge-filling {
+    fill: #fbf16b;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge9-gradient>stop:nth-child(1) {
+    stop-color: #fbf16b;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge9-gradient>stop:nth-child(2) {
+    stop-color: #fbf16b;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge10:hover .pvqr-chart-wedge-filling {
+    fill: #fdd478;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge10-gradient>stop:nth-child(1) {
+    stop-color: #fdd478;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge10-gradient>stop:nth-child(2) {
+    stop-color: #fdd478;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge11:hover .pvqr-chart-wedge-filling {
+    fill: #facaa2;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge11-gradient>stop:nth-child(1) {
+    stop-color: #facaa2;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge11-gradient>stop:nth-child(2) {
+    stop-color: #facaa2;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge12:hover .pvqr-chart-wedge-filling {
+    fill: #f8b67c;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge12-gradient>stop:nth-child(1) {
+    stop-color: #f8b67c;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge12-gradient>stop:nth-child(2) {
+    stop-color: #f8b67c;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge13:hover .pvqr-chart-wedge-filling {
+    fill: #f49f80;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge13-gradient>stop:nth-child(1) {
+    stop-color: #f49f80;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge13-gradient>stop:nth-child(2) {
+    stop-color: #f49f80;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge14:hover .pvqr-chart-wedge-filling {
+    fill: #f7b5b7;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge14-gradient>stop:nth-child(1) {
+    stop-color: #f7b5b7;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge14-gradient>stop:nth-child(2) {
+    stop-color: #f7b5b7;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge15:hover .pvqr-chart-wedge-filling {
+    fill: #f59094;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge15-gradient>stop:nth-child(1) {
+    stop-color: #f59094;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge15-gradient>stop:nth-child(2) {
+    stop-color: #f59094;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge16:hover .pvqr-chart-wedge-filling {
+    fill: #f2bdd1;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge16-gradient>stop:nth-child(1) {
+    stop-color: #f2bdd1;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge16-gradient>stop:nth-child(2) {
+    stop-color: #f2bdd1;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge17:hover .pvqr-chart-wedge-filling {
+    fill: #eb9cb9;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge17-gradient>stop:nth-child(1) {
+    stop-color: #eb9cb9;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge17-gradient>stop:nth-child(2) {
+    stop-color: #eb9cb9;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge18:hover .pvqr-chart-wedge-filling {
+    fill: #e47ca1;
+    fill-opacity: .75;
+    transition: 0s;
+}
+
+#pvqr-chart-wedge18-gradient>stop:nth-child(1) {
+    stop-color: #e47ca1;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-wedge18-gradient>stop:nth-child(2) {
+    stop-color: #e47ca1;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge-graduation {
+    stroke-width: 2;
+    stroke-opacity: .25;
+    stroke-dasharray: 2 2;
+}
+
+.pvqr-chart-wedge:hover .pvqr-chart-wedge-graduation {
+    stroke-width: 2;
+    stroke-opacity: .5;
+    stroke-dasharray: 2 2;
+}
+
+.pvqr-chart-wedge:hover .pvqr-chart-wedge-outline {
+    stroke-width: 2;
+}
+
+.pvqr-chart-segments {
+    stroke-width: 2;
+    font-family: sans-serif;
+    font-weight: 700;
+    /* font-size: 20px; */
+    font-size: 24px;
+}
+
+.pvqr-chart-ring-segment-text {
+    fill: #000;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.pvqr-chart-ring-segment .pvqr-chart-ring-wedge-overlay {
+    stroke-width: 4;
+    fill: #000;
+    fill-opacity: 0;
+}
+
+.pvqr-chart-ring-segment-graduation {
+    stroke-width: 2;
+    stroke-opacity: .25;
+    stroke-dasharray: 2 2;
+}
+
+.pvqr-chart-ring-segment:hover .pvqr-chart-segment-graduation {
+    stroke-width: 2;
+    stroke-opacity: .5;
+    stroke-dasharray: 2 2;
+}
+
+.pvqr-chart-ring-segment-shaded-area {
+    fill: #000;
+    fill-opacity: 0;
+}
+
+.pvqr-chart-ring-segment:hover .pvqr-chart-ring-segment-shaded-area {
+    fill-opacity: .125;
+    transition: 1s;
+}
+
+.pvqr-chart-ring-segment-shaded-curve {
+    stroke: #000;
+    stroke-opacity: 0;
+}
+
+.pvqr-chart-ring-segment:hover .pvqr-chart-ring-segment-shaded-curve {
+    stroke-opacity: .5;
+    transition: 1s;
+}
+
+.pvqr-chart-ring-wedge-overlay {
+    pointer-events: none;
+}
+
+.pvqr-chart-ring-segment:hover .pvqr-chart-ring-segment-outline {
+    stroke-width: 4;
+}
+
+.pvqr-chart-ring-segment text {
+    pointer-events: none;
+}
+
+.pvqr-chart-ring-segment:hover text {
+    font-size: 125%;
+}
+
+.pvqr-chart-ring-segment-filling {
+    transition: .5s;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment0:hover .pvqr-chart-ring-wedge-overlay {
+    fill: #6e7cb9;
+    fill-opacity: .25;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment0:hover .pvqr-chart-ring-segment-filling {
+    fill: #6e7cb9;
+    fill-opacity: .5;
+    transition: 0s;
+}
+
+#pvqr-chart-ring0-segment0-gradient>stop:nth-child(1) {
+    stop-color: #6e7cb9;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-ring0-segment0-gradient>stop:nth-child(2) {
+    stop-color: #6e7cb9;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment1:hover .pvqr-chart-ring-wedge-overlay {
+    fill: #56b29b;
+    fill-opacity: .25;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment1:hover .pvqr-chart-ring-segment-filling {
+    fill: #56b29b;
+    fill-opacity: .5;
+    transition: 0s;
+}
+
+#pvqr-chart-ring0-segment1-gradient>stop:nth-child(1) {
+    stop-color: #56b29b;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-ring0-segment1-gradient>stop:nth-child(2) {
+    stop-color: #56b29b;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment2:hover .pvqr-chart-ring-wedge-overlay {
+    fill: #f7a832;
+    fill-opacity: .25;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment2:hover .pvqr-chart-ring-segment-filling {
+    fill: #f7a832;
+    fill-opacity: .5;
+    transition: 0s;
+}
+
+#pvqr-chart-ring0-segment2-gradient>stop:nth-child(1) {
+    stop-color: #f7a832;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-ring0-segment2-gradient>stop:nth-child(2) {
+    stop-color: #f7a832;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment3:hover .pvqr-chart-ring-wedge-overlay {
+    fill: #ef585d;
+    fill-opacity: .25;
+}
+
+.pvqr-chart-ring0 .pvqr-chart-ring-segment3:hover .pvqr-chart-ring-segment-filling {
+    fill: #ef585d;
+    fill-opacity: .5;
+    transition: 0s;
+}
+
+#pvqr-chart-ring0-segment3-gradient>stop:nth-child(1) {
+    stop-color: #ef585d;
+    stop-opacity: .75;
+}
+
+#pvqr-chart-ring0-segment3-gradient>stop:nth-child(2) {
+    stop-color: #ef585d;
+    stop-opacity: 1;
+}
+
+.pvqr-chart-wedge-shaded-area {
+    fill: #000;
+    fill-opacity: 0;
+}
+
+.pvqr-chart-wedge:hover .pvqr-chart-wedge-shaded-area {
+    fill-opacity: .125;
+    transition: 1s;
+}
+
+.pvqr-chart-wedge-shaded-curve {
+    stroke: #000;
+    stroke-opacity: 0;
+}
+
+.pvqr-chart-wedge:hover .pvqr-chart-wedge-shaded-curve {
+    stroke-opacity: .5;
+    transition: 1s;
+}
