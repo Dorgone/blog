@@ -296,8 +296,8 @@ stroke: #868c90;
     outline: 0 !important;
 }
 
-.tqb-option-input-wrapper input {
-		background-color: transparent;
+.tqb-option-input-wrapper input, .tqb-option-input-wrapper textarea {
+    background-color: transparent;
 }
 
 .tqb-option-criteria-input {
