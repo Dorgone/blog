@@ -347,16 +347,16 @@ stroke: #868c90;
 
 .tqb-result-text.percentage {
     text-align: right;
-    width: 10%;
-    margin-left: 20px;
-    margin-right: 50px;
-    flex: 2 0 5%;
+    margin-left: 20px !important;
+    margin-right: 25px !important;
+    width: auto !important;
 }
 
+}
 .tqb-result-text.option {
     text-align: left;
     word-break: break-all;
-    flex: 3 3 80%;
+    flex: 3 3 80% !important;
 }
 
 
