@@ -438,99 +438,7 @@ stroke: #868c90;
 }
 
 
-.pvqr-chart-wedges {
-    fill: transparent;
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    /* font-size: 16px; */
-}
 
-.pvqr-chart-wedge-text {
-    fill: #000;
-    text-anchor: middle;
-    dominant-baseline: middle;
-}
-
-.pvqr-chart-wedge:hover .pvqr-chart-wedge-text {
-    font-size: 110%;
-}
-
-.result-wedge-0 {
-    background-color: #d1afd2;
-}
-
-.result-wedge-1 {
-    background-color: #bf91c2;
-}
-
-.result-wedge-2 {
-    background-color: #9fa8d1;
-}
-
-.result-wedge-3 {
-    background-color: #81b9dc;
-}
-
-.result-wedge-4 {
-    background-color: #7fd6cd;
-}
-
-.result-wedge-5 {
-    background-color: #a5dabc;
-}
-
-.result-wedge-6 {
-    background-color: #8dd1ac;
-}
-
-.result-wedge-7 {
-    background-color: #d1e26f;
-}
-
-.result-wedge-8 {
-    background-color: #fdf8a4;
-}
-
-.result-wedge-9 {
-    background-color: #fbf16b;
-}
-
-.result-wedge-10 {
-    background-color: #fdd478;
-}
-
-.result-wedge-11 {
-    background-color: #facaa2;
-}
-
-.result-wedge-12 {
-    background-color: #f8b67c;
-}
-
-.result-wedge-13 {
-    background-color: #f49f80;
-}
-
-.result-wedge-14 {
-    background-color: #f7b5b7;
-}
-
-.result-wedge-15 {
-    background-color: #f59094;
-}
-
-.result-wedge-16 {
-    background-color: #f2bdd1;
-}
-
-.result-wedge-17 {
-    background-color: #eb9cb9;
-}
-
-.result-wedge-18 {
-    background-color: #e47ca1;
-}
 
 .pvqr-chart-wedge-filling {
     transition: .5s;
@@ -555,24 +463,9 @@ stroke: #868c90;
     stroke-width: 2;
 }
 
-.pvqr-chart-segments {
-    stroke-width: 2;
-    font-family: sans-serif;
-    font-weight: 700;
-    /* font-size: 20px; */
-    font-size: 24px;
-}
-
-.pvqr-chart-ring-segment-text {
-    fill: #000;
-    text-anchor: middle;
-    dominant-baseline: middle;
-}
 
 .pvqr-chart-ring-segment .pvqr-chart-ring-wedge-overlay {
-    stroke-width: 4;
-    fill: #000;
-    fill-opacity: 0;
+/*     stroke-width: 4; */
 }
 
 .pvqr-chart-ring-segment-graduation {
@@ -615,13 +508,8 @@ stroke: #868c90;
     stroke-width: 4;
 }
 
-.pvqr-chart-ring-segment text {
-    pointer-events: none;
-}
 
-.pvqr-chart-ring-segment:hover text {
-    font-size: 125%;
-}
+
 
 .pvqr-chart-ring-segment-filling {
     transition: .5s;
