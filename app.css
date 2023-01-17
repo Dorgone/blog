@@ -451,6 +451,7 @@ stroke: #868c90;
     stroke-width: 2;
     stroke-opacity: .25;
     stroke-dasharray: 2 2;
+    fill: none;
 }
 
 .pvqr-chart-wedge:hover .pvqr-chart-wedge-graduation {
